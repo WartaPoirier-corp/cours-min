@@ -13,7 +13,7 @@ jobs:
         uses: AEnterprise/rsync-deploy@v1.0
         env:
           DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}
-          ARGS: "-e -c -r --delete --exclude '.*'"
+          ARGS: "-e -c -r --delete --exclude '.github'"
           FOLDER: ${{ github.workspace }}
           SERVER_PORT: 22
           SERVER_IP: ${{ secrets.REMOTE_HOST }}
