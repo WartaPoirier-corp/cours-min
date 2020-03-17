@@ -9,6 +9,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Debug
+        run: ls -R $GITHUB_WORKSPACE && echo "---" && ls -R .
       - name: Deploy to Staging server
         uses: AEnterprise/rsync-deploy@v1.0
         env:
