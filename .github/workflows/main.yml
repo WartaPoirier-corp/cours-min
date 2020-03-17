@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    steps:
       - name: Deploy to Staging server
         uses: AEnterprise/rsync-deploy@v1.0
         env:
