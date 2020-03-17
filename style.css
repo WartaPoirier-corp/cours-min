@@ -1,0 +1,10 @@
+body {
+    font-family: sans-serif;
+    padding: 1em 25vw;
+}
+
+@media screen and (max-width: 720px) {
+    body {
+        padding: 1em;
+    }
+}
