@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Se connecter à Turing en SSH</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <h1>Se connecter à Turing en SSH</h1>
+        <p>
+            Les serveurs de Turing sont ceux mis en place par l'Université. Ils ont tous les logiciels
+            dont nous avons besoin d'installés (Bash et CLang principalement). On peut y accéder grâce
+            au protocole SSH (c'est ce qu'on fait en TP).
+            Selon votre système d'exploitation, la connexion SSH se fait de façon différente.
+        </p>
+
+        <h2>Mac OS X et Linux</h2>
+
+        <p>Premièrement, vous aurez besoin d'ouvrir un terminal.</p>
+
+        <ul>
+            <li>
+                Sous Mac OS X, recherchez « Terminal » dans la liste des applications, et prenez celle pré-installée.
+            </li>
+            <li>
+                Sous Ubuntu, ouvrez le menu « Applications », et cherchez « Terminal ». Prenez là aussi l'application déjà présente.
+            </li>
+            <li>
+                Si vous avez une autre distribution Linux, vous savez probablement déjà faire (si ce n'est pas le cas vous pouvez envoyer un mail à <code>webmaster arobase edgarogh point fr</code> pour de l'aide).
+            </li>
+        </ul>
+
+        <p>
+        Ce terminal permet d'exécuter des commandes Bash sur votre ordinateur, si vous voulez seulement faire
+        du Bash il sera donc suffisant (pour du C, il faudra <a href="/INF203/installation">installer CLang</a>).
+        Mais si vous voulez vous connecter à Turing pour ne rien installer en plus sur votre ordinateur, vous
+        pouvez utiliser la commande <code>ssh</code> :
+        </p>
+
+        <pre><code>ssh NOM@turing.e.ujf-grenoble.fr</code></pre>
+
+        <p>
+            Il faudra remplacer <code>NOM</code> par votre identifiant Agalan (celui que vous utiliser
+            sur Léo, Chamilo, Caséine, etc). Faites <kbd>Entrée</kbd> pour lancer la commande. Votre mot de passe
+            sera demandé : là aussi c'est le mot de passe Agalan. Aucun caractère ne s'affiche, c'est normal,
+            c'est pour plus de sécurité. Faites <kbd>Entrée</kbd> quand vous avez fini de le taper,
+            vous êtes connecté⋅e !
+        </p>
+        <h2>Windows</h2>
+        <p><em>Ce tutoriel n'a pas été testé et se base sur <a href="https://inf203.gricad-pages.univ-grenoble-alpes.fr/Installation_MobaXterm.odt">le guide fourni par le professeur</a>.</em></p>
+        <p>
+            Téléchargez et installez MobaXterm <a href="https://mobaxterm.mobatek.net/download.html">
+            à cette adresse</a>. Une fois que c'est fait, lancez l'application.
+        </p>
+        <p>Cliquez sur « Start Local Terminal »</p>
+        <img src="/INF203/ssh/start.png" alt="Le bouton en question">
+        <p>
+            Cliquez sur le bouton « Session », puis sur le bouton « SSH »
+            Dans la case « Remote host * », entrez l’adresse du serveur : <code>turing.e.ujf-grenoble.fr</code>.
+            Cocher la case « Specify username », et entrez votre identifiant Agalan (celui utilisé sur Léo,
+            Chamilo, Caséine, etc). Cliquez sur OK.
+        </p>
+        <img src="/INF203/ssh/config.png" alt="Fenêtre de configuration">
+        <p>
+            Entrez votre mot de passe. Aucun caractère ne s'affiche mais c'est normal, c'est pour plus de sécurité.
+            Vous avez à présent accès au serveur Turing.
+            Vous pouvez entrer des lignes de commande dans le terminal.
+        </p>
+        <p>
+            Pour modifier vos fichiers, au lieu d’utiliser le logiciel gedit, vous pouvez ouvrir les
+            fichiers en parcourant l’arborescence située à gauche de la fenêtre. Les applications graphiques
+            pourraient en effet ne pas marcher ou être très lentes à cause de la distance entre votre machine
+            et le serveur sur le campus.
+        </p>
+    </body>
+</html>
