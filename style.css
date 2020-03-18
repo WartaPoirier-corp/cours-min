@@ -8,3 +8,7 @@ body {
         padding: 1em;
     }
 }
+
+a[href$="/code.ml"] {
+    font-family: monospace;
+}
