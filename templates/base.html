@@ -9,6 +9,15 @@
     <body>
         <a class="github-fork-ribbon" href="https://github.com/WartaPoirier-corp/cours-min" target="_blank" data-ribbon="Voir sur GitHub" title="Voir sur GitHub">Voir sur GitHub</a>
         
+        {% set this = section | default(default=page) %}
+        {% for anc in this.ancestors %}
+            {% set anc = get_section(path=anc) %}
+            {% if not loop.first %}
+                /
+            {% endif %}
+            <a href="{{ anc.permalink }}">{{ anc.title }}</a>
+        {% endfor %}
+
         {% block content %}{% endblock content %}
     </body>
 </html>
