@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://min.wp-corp.eu.org"
+base_url = "https://cours.wp-corp.eu.org"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
