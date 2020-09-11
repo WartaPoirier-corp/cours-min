@@ -12,3 +12,25 @@ body {
 a[href$="/code.ml"] {
     font-family: monospace;
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 10%;
+    padding: 5px;
+  }
+
+  .column2 {
+    float: left;
+    width: 90%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

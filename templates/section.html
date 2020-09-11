@@ -8,6 +8,12 @@
     <h1>{{ section.title }}</h1>
     <p>{{ section.content | safe }}</p>
 
+    {% for ue in section.subsections %}
+        {% set ue = get_section(path=ue) %}
+        <h2><a href="{{ ue.permalink }}">{{ ue.title }}</a></h2>
+        {{ ue.content | safe }}
+    {% endfor %}
+
     <div style="border: 1px solid black; padding: 10px; margin: 10px;">
         <h2 style="margin-top: 0;">Turing depuis votre navigateur</h2>
         <p>
@@ -38,10 +44,25 @@
         </p>
     </div>
 
-    {% for ue in section.subsections %}
-        {% set ue = get_section(path=ue) %}
-        <h2><a href="{{ ue.permalink }}">{{ ue.title }}</a></h2>
-        {{ ue.content | safe }}
-    {% endfor %}
+    <div style="border: 1px solid black; padding: 10px; margin: 10px;">
+        <h2 style="margin-top: 0;">Warta Poirier Corp.</h2>
+        <div class="row">
+            <div class="column">
+              <img src="https://avatars0.githubusercontent.com/u/60916974?s=200&v=4" alt="Snow" style="width:100%">
+            </div>
+            <div class="column2">
+                <p>
+                    <i>
+                        Ce moment de praticité qualitatif vous est offert par la Warta Poirier Corp. 
+                        Nous vous remercions d'utiliser cette nouvelle offre qui permet de consulter ses cours de manière disruptive.
+                    </i>
+                </p>
+            </div>
+          </div>
+    </div>
+
+    
+    </div>
+
 {% endblock content %}
 
