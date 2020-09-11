@@ -1,8 +1,6 @@
 +++
-title = "INF301"
+title = "INF301 - Algorithmique et Programmation Impérative"
 template = "ue.html"
 +++
 
-- Test
-- Test
-  - Testttt
+[Caseine](/https://moodle.caseine.org/course/view.php?id=72)
