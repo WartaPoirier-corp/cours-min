@@ -1,5 +1,8 @@
 +++
 title = "Liste des cours de MIN"
+
+[extra]
+show_turing = true
 +++
 
 **Cette page recense toutes les ressources nécessaires pour suivre les cours à distance,

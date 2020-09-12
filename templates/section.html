@@ -14,55 +14,36 @@
         {{ ue.content | safe }}
     {% endfor %}
 
-    <div style="border: 1px solid black; padding: 10px; margin: 10px;">
-        <h2 style="margin-top: 0;">Turing depuis votre navigateur</h2>
-        <p>
-            Pour les UEs d'INF*, un pont (non-officiel) vers turing a été
-            mis en place à l'addresse
-            <a href="https://turing.polys-uga.edgarogh.fr/">https://turing.polys-uga.edgarogh.fr/</a>,
-            et permet d'accéder à turing depuis un navigateur web, sans
-            installer quoi que ce soit sur votre ordinateur.
-        </p>
-        <p>
-            Nous insistons sur le fait que ce service est non-officiel, et
-            n'offrons absolument <mark>AUCUNE GARANTIE</mark> sur son bon
-            fonctionnement, ni sur l'absence de faille de sécurité qui
-            donneraient, par exemple, accès à votre compte UGA à une
-            personne non autorisée.
-            <mark>
-                NOUS DECLINONS TOUTE RESPONSABILITE EN CAS DE COMPROMISSION
-                DE COMPTE PAR LE BIAIS DE CE SERVICE
-            </mark>
-        </p>
-        <p>
-            <i>
-                Nous faisons quand même du mieux possible pour fournir un
-                service de qualité et mettons en oeuvre tout ce qu'il nous
-                est possible de mettre en oeuvre pour pas qu'il n'y ait de
-                problème.s (connection sécurisée par HTTPS par exemple).
-            </i>
-        </p>
-    </div>
-
-    <div style="border: 1px solid black; padding: 10px; margin: 10px;">
-        <h2 style="margin-top: 0;">Warta Poirier Corp.</h2>
-        <div class="row">
-            <div class="column">
-              <img src="https://avatars0.githubusercontent.com/u/60916974?s=200&v=4" alt="Snow" style="width:100%">
-            </div>
-            <div class="column2">
-                <p>
-                    <i>
-                        Ce moment de praticité qualitatif vous est offert par la Warta Poirier Corp. 
-                        Nous vous remercions d'utiliser cette nouvelle offre qui permet de consulter ses cours de manière disruptive.
-                    </i>
-                </p>
-            </div>
-          </div>
-    </div>
-
-    
-    </div>
-
+    {% if section.extra.show_turing %}
+        <div class="info">
+            <h2 style="margin-top: 0;">Turing depuis votre navigateur</h2>
+            <p>
+                Pour les UEs d'INF*, un pont (non-officiel) vers turing a été
+                mis en place à l'addresse
+                <a href="https://turing.polys-uga.edgarogh.fr/">https://turing.polys-uga.edgarogh.fr/</a>,
+                et permet d'accéder à turing depuis un navigateur web, sans
+                installer quoi que ce soit sur votre ordinateur.
+            </p>
+            <p>
+                Nous insistons sur le fait que ce service est non-officiel, et
+                n'offrons absolument <mark>AUCUNE GARANTIE</mark> sur son bon
+                fonctionnement, ni sur l'absence de faille de sécurité qui
+                donneraient, par exemple, accès à votre compte UGA à une
+                personne non autorisée.
+                <mark>
+                    NOUS DECLINONS TOUTE RESPONSABILITE EN CAS DE COMPROMISSION
+                    DE COMPTE PAR LE BIAIS DE CE SERVICE
+                </mark>
+            </p>
+            <p>
+                <i>
+                    Nous faisons quand même du mieux possible pour fournir un
+                    service de qualité et mettons en oeuvre tout ce qu'il nous
+                    est possible de mettre en oeuvre pour pas qu'il n'y ait de
+                    problème.s (connection sécurisée par HTTPS par exemple).
+                </i>
+            </p>
+        </div>
+    {% endif %}
 {% endblock content %}
 
