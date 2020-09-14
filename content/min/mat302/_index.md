@@ -2,6 +2,9 @@
 title = "MAT302 - Séries et Intégration"
 template = "ue.html"
 +++
+
+[Moodle](https://cours.univ-grenoble-alpes.fr/enrol/index.php?id=8252)
+
 Polycopié du cours
 
 - [1 - Séries numériques](https://www-fourier.ujf-grenoble.fr/~rjoly/Documents/Pedago/MAT302/cours-MAT302-chapitres-series.pdf)
