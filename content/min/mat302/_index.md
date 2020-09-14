@@ -13,6 +13,7 @@ Slides
 - [Cours 1](https://www-fourier.ujf-grenoble.fr/~garotta/courserie1-MAT302.pdf)
 - [Cours 2](https://www-fourier.ujf-grenoble.fr/~garotta/courserie2.pdf)
 - [Cours 3](https://www-fourier.ujf-grenoble.fr/~garotta/courserie3.pdf)
+- [Cours 4](/min/mat302/cours-4.pdf)
 
 Polycopié TD
 
