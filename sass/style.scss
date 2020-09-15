@@ -5,7 +5,7 @@ body {
     font-family: "Segoe UI", "Open Sans", "San Francisco", "Roboto", "Helvetica Neue", "Helvetica", "Ubuntu", sans-serif;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (orientation: portrait) {
     body {
         padding: 1em;
     }
@@ -35,6 +35,7 @@ body > footer {
     margin: 10em 0 2em;
     font-style: italic;
     color: #222222;
+    align-items: center;
 
     img {
       max-width: 5em;
