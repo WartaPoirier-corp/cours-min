@@ -1,14 +1,45 @@
 body {
     font-family: sans-serif;
     padding: 1em 25vw;
+    color: #22031F;
+    font-family: "Segoe UI", "Open Sans", "San Francisco", "Roboto", "Helvetica Neue", "Helvetica", "Ubuntu", sans-serif;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (orientation: portrait) {
     body {
         padding: 1em;
     }
 }
 
-a[href$="/code.ml"] {
-    font-family: monospace;
+h1, h2, h3, h4 {
+    font-family: "Libre Baskerville", "Playfair Display", "Noto Serif", "Lora",  "Merriweather", "Times New Roman", serif;
+}
+
+h2 {
+    margin-top: 3em;
+}
+
+a, a:visited {
+    color: #457B9D;
+}
+
+.info {
+    border: 1px solid #22031F;
+    margin: 3em 1em 1em 1em;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+body > footer {
+    display: flex;
+    margin: 10em 0 2em;
+    font-style: italic;
+    color: #222222;
+    align-items: center;
+
+    img {
+      max-width: 5em;
+      margin-right: 2em;
+      border-radius: 1em;
+    }
 }

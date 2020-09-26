@@ -1,7 +1,11 @@
 +++
 title = "Liste des cours de MIN"
+
+[extra]
+show_turing = true
 +++
 
+<<<<<<< HEAD
 > Cette page recense toutes les ressources nécessaires pour suivre les cours à distance,
 pour les étudiants et étudiantes de la license MIN à l'Université Grenoble-Alpes.
 
@@ -45,3 +49,7 @@ Polycopié de cours
 ___
 | ![imgur](https://avatars0.githubusercontent.com/u/60916974?s=200&v=4) | Ce moment de praticité de KLIT vous est proposé par la Warta Poirier Corp. |
 |:------:|:-----------:|
+=======
+**Cette page recense toutes les ressources nécessaires pour suivre les cours à distance,
+pour les étudiants et étudiantes de la license MIN à l'Université Grenoble-Alpes.**
+>>>>>>> 8900eb5c6154d73ebc36b3b968a11d01ca7bd079
