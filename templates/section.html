@@ -8,9 +8,16 @@
     <h1>{{ section.title }}</h1>
     <p>{{ section.content | safe }}</p>
 
+    <ul class="toc">
     {% for ue in section.subsections %}
         {% set ue = get_section(path=ue) %}
-        <h2><a href="{{ ue.permalink }}">{{ ue.title }}</a></h2>
+        <li><a href="#{{ ue.title | slugify }}">{{ ue.title }}</a></h2>
+    {% endfor %}
+    </ul>
+
+    {% for ue in section.subsections %}
+        {% set ue = get_section(path=ue) %}
+        <h2 id="{{ ue.title | slugify }}"><a href="{{ ue.permalink }}">{{ ue.title }}</a></h2>
         {{ ue.content | safe }}
     {% endfor %}
 
