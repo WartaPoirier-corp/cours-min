@@ -13,3 +13,18 @@ du cours (sur la page de connexion du BigBlueButton, en bas).
 [Perusall](https://app.perusall.com/)
 
 Sur Perusall, il faut se créer un compte puis rentrer le code pour avoir accès au cours (ce code est disponible sur Caséine).
+
+**Cours**
+
+- [Chapitre 1 : Ensembles et séquences VS tableaux](/min/inf301/inf301-ch01-ensembles-sequences-tableaux.pdf)
+- [Chapitre 2 : Ensemble et séquences VS listes chaînées](/min/inf301/inf301-ch01-sequences-listes-chainees.pdf)
+- [Chapitre 3 : Complexité algorithmique](/min/inf301/inf301-ch03-complexite.pdf)
+- [Chapitre 4 : Arbres et récursivité](/min/inf301/inf301-ch04-arbres.pdf)
+
+**APPs et semaines de transition**
+
+- [APP 1](/min/inf301/inf301-app1.pdf)
+- [Semaine de transition : listes chaînées](/min/inf301/inf301-transition-liste-chainees.pdf)
+- [APP 2](/min/inf301/inf301-app2.pdf)
+- [Semaine de transition : arbres binaires](/min/inf301/inf301-transition-arbres.pdf)
+- [APP 3](/min/inf301/inf301-app3.pdf)
