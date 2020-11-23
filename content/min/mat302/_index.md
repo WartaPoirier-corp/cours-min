@@ -3,10 +3,7 @@ title = "MAT302 - Séries et Intégration"
 template = "ue.html"
 +++
 
-**Pour les amphis :** L'amphi est en demi-groupes. Il n'y a pas de rediffusion
-a priori. Le groupe qui n'est pas dans l'amphi doit avancer de son côté pendant la
-semaine. Chaque groupe de TD est coupé en deux moitiés, groupes « A » et « B », qui alternent.
-Le calendrier précis est sur le Moodle de l'UE (dans la barre sur la gauche, « Calendrier »).
+**Pour les amphis :** Le lien du BigBlueButton est sur Moodle, et il y a des rediffusions.
 
 [Moodle](https://cours.univ-grenoble-alpes.fr/enrol/index.php?id=8252)
 

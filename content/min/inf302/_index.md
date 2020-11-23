@@ -3,9 +3,7 @@ title = "INF302 - Langages et Automates"
 template = "ue.html"
 +++
 
-**Pour les amphis :** Ils ont lieu au moins en distanciel (et il y a sans doute des rediffusions en direct
-dans l'amphi du DLST). Les liens sont sur le Moodle, que ça soit pour le BigBlueButton en live ou les
-rediffusions.
+**Pour les amphis :** Les liens sont sur le Moodle, que ça soit pour le BigBlueButton en live ou les rediffusions.
 
 [Moodle](https://im2ag-moodle.e.ujf-grenoble.fr/course/view.php?id=160)
 
