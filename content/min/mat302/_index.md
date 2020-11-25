@@ -12,7 +12,8 @@ en portrait au lieu d'être des slides en paysage).
 
 **Polycopiés de TD**
 
-- [Séries à termes positifs](/min/mat302/mat302-td1.pdf)
-- [Séries à termes quelconques](/min/mat302/mat302-td1.pdf)
-- [Intégrales de Riemann et les techniques d'intégration](/min/mat302/mat302-td1.pdf)
-- [Intégrales impropres](/min/mat302/mat302-td1.pdf)
+- [Suites numériques, comparaisons de suites, développements limités](/min/mat302/mat302-td1.pdf)
+- [Séries à termes positifs](/min/mat302/mat302-td2.pdf)
+- [Séries à termes quelconques](/min/mat302/mat302-td3.pdf)
+- [Intégrales de Riemann et les techniques d'intégration](/min/mat302/mat302-td4.pdf)
+- [Intégrales impropres](/min/mat302/mat302-td5.pdf)
