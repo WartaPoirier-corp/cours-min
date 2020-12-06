@@ -8,6 +8,7 @@
     <h1>{{ section.title }}</h1>
     <p>{{ section.content | safe }}</p>
 
+    <h3>Table des matières</h3>
     <ul class="toc">
     {% for ue in section.subsections %}
         {% set ue = get_section(path=ue) %}
