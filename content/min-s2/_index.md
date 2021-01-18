@@ -1,5 +1,5 @@
 +++
-title = "Liste des cours de MIN"
+title = "Liste des cours de MIN (semestre 2)"
 
 [extra]
 show_turing = true
