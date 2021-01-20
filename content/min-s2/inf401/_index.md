@@ -8,7 +8,7 @@ Cours
 - [Zoom](https://univ-grenoble-alpes-fr.zoom.us/j/2089240348)
 - [Questions](https://web.speakup.info/)
 
-[Moodle](https://cours.univ-grenoble-alpes.fr/course/view.php?id=7013)
+[Moodle](https://im2ag-moodle.univ-grenoble-alpes.fr/course/view.php?id=336)
 
 [Mattermost](http://im2ag-tchat.univ-grenoble-alpes.fr/l2/channels/inf401-architectures-des-ordinateurs)
 

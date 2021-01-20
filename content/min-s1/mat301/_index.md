@@ -7,4 +7,4 @@ template = "ue.html"
 
 [Moodle](https://cours.univ-grenoble-alpes.fr/course/view.php?id=11818)
 
-[Polycopié de TD](/min/mat301/mat301-td.pdf)
+[Polycopié de TD](/min-s1/mat301/mat301-td.pdf)
